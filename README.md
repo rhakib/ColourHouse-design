@@ -6,23 +6,23 @@ clone this repository: https://github.com/rhakib/ColourHouse-design.git
 
 run this command in cmd:
 
-git clone https://github.com/rhakib/ColourHouse-design.git
+- git clone https://github.com/rhakib/ColourHouse-design.git
 
 then run this command to enter in this folder:
 
-cd ColourHouse-design
+-  cd ColourHouse-design
 
 **Step 2**
 
 then run this command to initialize the file:
 
-npm install
+- npm install
 
 **Step 3**
 
 run this command:
 
-npm run dev
+- npm run dev
 
 You will get a local server link like: http://localhost:5173/
 
