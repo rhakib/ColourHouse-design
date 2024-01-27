@@ -1,0 +1,87 @@
+/* for main div  */
+
+.mainDiv {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana;
+    padding-top: 40px;
+
+}
+
+
+/* for house component  */
+
+.house {
+
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contentBox {
+    box-shadow: 0 4px 6px 1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    margin: 8px 16px;
+    padding: 0 18px;
+}
+
+.upperText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upperText h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.upperText p {
+    font-size: 14px;
+}
+
+.colors {
+    height: 15px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.founderText {
+    font-size: 14px;
+}
+
+.founderText span {
+    font-weight: 800;
+}
+
+/* loading spinner  */
+
+.loading {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    border: 4px solid gray;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    animation: spin 1s linear infinite;
+    border-top: 4px solid #000;
+
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
